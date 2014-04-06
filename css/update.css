@@ -250,3 +250,49 @@ li
 #fsend:hover {
     background: rgb(255, 156, 156);
 }
+
+@media (max-width: 450px)
+{
+	#up_Title
+	{
+		width: 100%;
+        
+	}
+    
+    #up_login_container
+    {
+        visibility: hidden;
+    }
+    
+    #report
+    {
+        visibility: collapse;
+        height: 300%;
+    }
+    
+    #front-report-top
+    {
+        margin: -100px;        
+        width: 160%;
+    }
+}
+
+@media (max-width: 1150px)
+{
+	#up_Title
+	{
+		width: 100%;
+        
+	}
+    
+    #up_login_container
+    {
+        visibility: hidden;
+    }
+    
+    #report
+    {
+        visibility: hidden;
+        height: 200%;
+    }
+}

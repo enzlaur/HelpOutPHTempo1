@@ -20,7 +20,7 @@
     <script src="/js/vendor/modernizr.js"></script>
   </head>
 
-  <body>
+  <body class="bods">
       
     
 
@@ -105,15 +105,15 @@
 
 
 
-	<div id="report" class="wow fadeInDown">                
-        <div class="row" style="color: white;">
+	<div id="report" style="width: 100%">                
+        <div class="row wow fadeInDown" style="color: white; background: rgb(16, 109, 129);">
             <center>
-                <h1 style="font-size: 72px;">
+                <h1 class="wow fadeInDown" style="font-size: 72px;">
                     <HR>
                     HelpOut in Reports
                     <hr>
                 </h1>
-                <h2 style="line-height: 40px;">
+                <h2 class="wow fadeInDownBig" style="line-height: 40px;">
                     HelpOutPH gives ordinary citizens tools in helping the Filipino people during times of crisis and at the same time promote transparency.
                 </h2>
             </center>
@@ -121,25 +121,29 @@
             
         </div>
         
-        <div class="row wow fadeInDown" >
+        <div class="row wow fadeInDown" style="background: rgb(16, 109, 129);">
             
-            <div class="large-6 columns">
+            <div class="large-6 columns wow fadeInLeft">
                 <hr>
-                <h1>Help transfer data from Twitter</h1>
+                <h2 class="wow fadeInLeftBig" style="line-height: 40px;">
+                    Help transfer data from Twitter
+                </h2>
                 Lots of people take to social media to share their status and situation, 
                 you can help us collate this information by using our tweet-to-form module.
                 <hr>
-                <h2>Rescue teams can view all the reports submitted <a href="/reportssubmitted">here</a>.</h2>
+                <h2 class="wow fadeInLeftBig">Rescue teams can view all the reports submitted <a href="/reportssubmitted">here</a>.</h2>
                 We make the rescue report database public and easy to find so that rescuers
             </div>
-	       <div class="large-6 columns">                
+	       <div class="large-6 columns wow fadeInRight">                
                 <hr>
-                <h2 style="line-height: 46px;">Rescue teams have been deployed to these areas.</h2>                
+                <h2 class="wow fadeInRightBig" style="line-height: 46px;">
+                    Rescue teams have been deployed to these areas.
+                </h2>                
                 See whether a rescue team has been deployed to your area
                <hr>
-               <h1>
+               <h2 class="wow fadeInRightBig">
                    Heat Maps coming soon.
-               </h1>
+               </h2>
            </div>            
                 
 
@@ -152,7 +156,7 @@
 
 	</div>
 
-	<div id="giverelief">
+	<div id="giverelief" class="wow fadeInLeft">
 
 		<h2>Find a relief operation near you:</h2>
 		<h3>Here are some we personally trust:</h3>
@@ -184,9 +188,9 @@
 
 
 	<div id="listofcauses">
-        <div class="row">
+        <div class="row" style="padding-top: 60px;">
             <hr>
-            <div class="large-12 columns">
+            <div class="large-12 columns wow rollIn">
                 <form method="get" action="/"> 
                     <h2>Know someone who needs rescuing?</h2>
                     <h3>Enter details here and we'll relay to rescue teams. Please be as specific as you can, include:
@@ -213,6 +217,21 @@
         </div>
     </div>
       
+    <div
+         style="background: rgb(40,40,40);
+                color: white;">          
+        
+        <div class="row">
+            <center>
+                <h2>
+                    Created by Team Lakajo
+                </h2>
+            </center>
+            
+    </div>
+    </div>
+    
+    
     
 
     <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
