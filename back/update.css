@@ -8,6 +8,10 @@ h1
     font-family: Rockwell;
 }
 
+p
+{
+    color: white;
+}
 #up_Title {
     background: rgb(1, 79, 96);
     border: 0px;
