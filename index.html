@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>HelpOutPH</title>
+    <link rel="stylesheet" href="/stylesheets/style.css">
+    <link rel="stylesheet" href="/stylesheets/index.css">
+    <!-- from laurenz -->  
+    <link rel="stylesheet" href="css/laurenz.css">
+    <link rel="stylesheet" href="css/text-styles.css">	
+    <link rel="stylesheet" href="css/foundation-icons.css">
+    <link rel="stylesheet" type="text/css" href="css/interacts.css">
+
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/foundation.css"/>
+    <link rel="stylesheet" href="css/laurenz.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/update.css">     
+    <script src="/js/vendor/modernizr.js"></script>
+  </head>
+
+  <body>
+      
+    
+
+  	<header id="header">
+        
+  		<div id="up_topbar" class="row">
+            <div class="large-6 columns wow slideInLeft">
+                <a id="up_Title" href="#" data-dropdown="drop1" class="button dropdown">
+                    HelpOutPH
+                </a>
+                <br><br>
+                    <ul id="drop1" data-dropdown-content class="f-dropdown">
+                        
+                        <li class="up_dropdown_content"><a href="#report">Need Rescue</a></li>
+                        <li class="up_dropdown_content"><a href="#deployedtowhere">Deployed Rescuers</a></li>                                                    
+                        <li class="up_dropdown_content"><a href="#giverelief">Give Relief</a></li>
+                        <li class="up_dropdown_content"><a href="#listofcauses">Causes to Support</a></li>
+                    </ul>
+                
+            </div>
+            
+            <div class="large-6 columns wow slideInRight">
+                <div id="up_login_container">
+                    <div class="large-5 columns">
+                        <input id="up_login_email" type="text" placeholder="Email"> 
+                    </div>
+                    <div class="large-5 columns">
+                        <input id="up_login_password" type="password" placeholder="Password">                        
+                    </div>             
+                    <div class="large-2 columns">
+                        <i id="up_login_submit" class="step fi-play-circle"></i>
+                    </div>                                                            
+                </div>
+            </div>
+            
+        </div>
+	</header>
+    
+    
+    
+	<div id="about">        
+		<div class="row wow fadeInDown">
+            <div class="large-6 columns">
+                <h1 style="font-size: 40px; line-height: 40px;">
+                    HelpOutPH is a portal for volunteers.
+                </h1>
+                <hr>            
+            <h2 style="line-height: 40px; font-size: 30px;">
+                We bridge the gap between volunteers and disaster victims.<br>
+                Here, as a volunteer, you can:
+                <ul>
+                <li>send in reports for people who need rescuing</li>
+                <li>see where rescue teams have been deployed</li>
+                <li>see where you can go to help in relief efforts</li>
+                <li>view causes we support, or add your own</li>
+		      </ul>
+            </h2>
+            </div>
+            <div class="large-6 columns">
+                <form id="front-report-top" method="get" action="/"> 
+                    <h2 style="line-height: 30px; font-size: 30px;"> 
+                        Know someone who needs rescuing?
+                    </h2>
+                    <h3>Enter details here and we'll relay to rescue teams. Please be as specific as you can, include:
+                        <ol style="line-height: 16px">
+                            <li>number of people in need of rescue </li>
+                            <li>level of flood in area (knee, waist, shoulder, etc) </li>
+                            <li>any info that might help rescuers </li>
+                        </ol>
+                    </h3>                    
+                    <input type="text" placeholder="Who needs rescuing?" id="fnames" name="fnames"><br>
+                    <input type="text" placeholder="Where are they at?" id="flocation" name="flocation"><br>
+                    <input type="text" placeholder="What's happening?" id="fsituation" name="fsituation"><br>
+                    <input type="text" placeholder="How do we reach them?" id="fcontact" name="fcontact"><br>
+                    <input type="submit" value="Send Request" id="fsend">
+                </form>
+            </div>
+        </div>
+        
+
+	</div>
+
+
+
+	<div id="report">
+
+		<form id="front-report-left" method="get" action="/"> 
+			<h2>Know someone who needs rescuing?</h2>
+			<h3>Enter details here and we'll relay to rescue teams. Please be as specific as you can, include:
+	        <ol>
+	        	<li>number of people in need of rescue </li>
+				<li>level of flood in area (knee, waist, shoulder, etc) </li>
+				<li>any info that might help rescuers </li>
+			</ol>
+	        </h3>
+			<input type="text" placeholder="Who needs rescuing?" id="fnames" name="fnames"><br>
+			<input type="text" placeholder="Where are they at?" id="flocation" name="flocation"><br>
+	        <input type="text" placeholder="What's happening?" id="fsituation" name="fsituation"><br>
+	        <input type="text" placeholder="How do we reach them?" id="fcontact" name="fcontact"><br>
+	        <input type="submit" value="Send Request" id="fsend">
+	    </form>
+
+	    <div id="front-report-right">
+
+	    <h2>Help transfer data from Twitter</h2>
+	    <h3>Lots of people take to social media to share their status and situation, 
+	    you can help us collate this information by using our tweet-to-form module.</h3>
+
+	    <h2>Rescue teams can view all the reports submitted <a href="/reportssubmitted">here</a>.</h2>
+	    <h3>We make the rescue report database public and easy to find so that rescuers</h3>
+
+	    <h2>Rescue teams have been deployed to these areas.</h2>
+	    <h3>See whether a rescue team has been deployed to your area</h3>
+
+	    </div>
+
+	</div>
+
+	<div id="giverelief">
+
+		<h2>Find a relief operation near you:</h2>
+		<h3>Here are some we personally trust:</h3>
+		<br><br>
+		
+		<div id="relief-left">
+
+			<div id="relief-left-map"></div>
+			<br>
+			<h3>VILLAMOR AIRBASE</h3>
+			<h3>Villamor Air Base Brgy 183, Pasay, Pasay City</h3>
+
+		</div>
+
+		<div id="relief-right">
+
+			<div id="relief-right-map"></div>
+			<br>
+			<h3>ABS-CBN FOUNDATION</h3>
+			<h3>Mother Ignacia Ave, Quezon City</h3>
+			
+		</div>
+
+	</div>
+
+
+
+
+
+
+	<div id="listofcauses"></div>
+
+
+    <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+	<script src="/js/reliefmaps.js"></script>
+    <script src="js/vendor/jquery.js"></script>
+	    <script src="js/foundation.min.js"></script>
+        <script src="js/wow.js">
+            new WOW().init();
+        </script>
+        <script src="js/wow.min.js"></script>
+        <script>
+         new WOW().init();
+        </script>
+        <script src="js/uplogic.js"></script>
+	    <script>
+	      $(document).foundation();
+	    </script>
+
+  </body>
+
+</html>

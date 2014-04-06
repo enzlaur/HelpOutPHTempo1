@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>HelpOutPH</title>
+    <link rel="stylesheet" href="/stylesheets/style.css">
+    <link rel="stylesheet" href="/stylesheets/index.css">
+  </head>
+
+  <body>
+
+  	<header id="header">
+  		<div id = "title">
+			<h1><a href="#about">HelpOutPH</a></h1>
+  		</div>
+
+		<nav id="nav">
+			<h3><ul>
+		        <li><a href="#report">Need Rescue?</a></li>
+		        <li><a href="#deployedtowhere">Deployed Rescuers</a></li>
+		        <li><a href="#giverelief">Give Relief</a></li>
+		       	<li><a href="#listofcauses">Causes to Support</a></li>
+	    	</ul></h3>
+	  	</nav>
+	</header>
+
+	<div id="about">
+		
+		<h1>HelpOutPH is a portal for volunteers.</h1>
+		<h1>We bridge the gap between volunteers and disaster victims.</h1>
+		<h2>Here, as a volunteer, you can:
+		<ul>
+			<li>send in reports for people who need rescuing</li>
+			<li>see where rescue teams have been deployed</li>
+			<li>see where you can go to help in relief efforts</li>
+			<li>view causes we support, or add your own</li>
+		</ul>
+		</h2>
+
+	</div>
+
+
+
+	<div id="report">
+
+		<form id="front-report-left" method="get" action="/">
+			<h2>Know someone who needs rescuing?</h2>
+			<h3>Enter details here and we'll relay to rescue teams. Please be as specific as you can, include:
+	        <ol>
+	        	<li>number of people in need of rescue </li>
+				<li>level of flood in area (knee, waist, shoulder, etc) </li>
+				<li>any info that might help rescuers </li>
+			</ol>
+	        </h3>
+			<input type="text" placeholder="Who needs rescuing?" id="fnames" name="fnames"><br>
+			<input type="text" placeholder="Where are they at?" id="flocation" name="flocation"><br>
+	        <input type="text" placeholder="What's happening?" id="fsituation" name="fsituation"><br>
+	        <input type="text" placeholder="How do we reach them?" id="fcontact" name="fcontact"><br>
+	        <input type="submit" value="Send Request" id="fsend">
+	    </form>
+
+	    <div id="front-report-right">
+
+	    <h2>Help transfer data from Twitter</h2>
+	    <h3>Lots of people take to social media to share their status and situation, 
+	    you can help us collate this information by using our tweet-to-form module.</h3>
+
+	    <h2>Rescue teams can view all the reports submitted <a href="/reportssubmitted">here</a>.</h2>
+	    <h3>We make the rescue report database public and easy to find so that rescuers</h3>
+
+	    <h2>Rescue teams have been deployed to these areas.</h2>
+	    <h3>See whether a rescue team has been deployed to your area</h3>
+
+	    </div>
+
+	</div>
+
+	<div id="giverelief">
+
+		<h2>Find a relief operation near you:</h2>
+		<h3>Here are some we personally trust:</h3>
+		<br><br>
+		
+		<div id="relief-left">
+
+			<div id="relief-left-map"></div>
+			<br>
+			<h3>VILLAMOR AIRBASE</h3>
+			<h3>Villamor Air Base Brgy 183, Pasay, Pasay City</h3>
+
+		</div>
+
+		<div id="relief-right">
+
+			<div id="relief-right-map"></div>
+			<br>
+			<h3>ABS-CBN FOUNDATION</h3>
+			<h3>Mother Ignacia Ave, Quezon City</h3>
+			
+		</div>
+
+	</div>
+
+
+
+
+
+
+	<div id="listofcauses"></div>
+
+	<script src="/js/jquery-1.11.0.js"></script>
+   	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js" type="text/javascript"></script>
+
+    <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+	<script src="/js/reliefmaps.js"></script>
+
+
+  </body>
+
+</html>
