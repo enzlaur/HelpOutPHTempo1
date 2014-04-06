@@ -62,7 +62,7 @@
     
     
 	<div id="about">        
-		<div class="row wow fadeInDown">
+		<div class="wow fadeInDown">
             <div class="large-6 columns">
                 <h1 style="font-size: 40px; line-height: 40px;">
                     HelpOutPH is a portal for volunteers.
@@ -106,24 +106,8 @@
 
 
 	<div id="report">
-
-		<form id="front-report-left" method="get" action="/"> 
-			<h2>Know someone who needs rescuing?</h2>
-			<h3>Enter details here and we'll relay to rescue teams. Please be as specific as you can, include:
-	        <ol>
-	        	<li>number of people in need of rescue </li>
-				<li>level of flood in area (knee, waist, shoulder, etc) </li>
-				<li>any info that might help rescuers </li>
-			</ol>
-	        </h3>
-			<input type="text" placeholder="Who needs rescuing?" id="fnames" name="fnames"><br>
-			<input type="text" placeholder="Where are they at?" id="flocation" name="flocation"><br>
-	        <input type="text" placeholder="What's happening?" id="fsituation" name="fsituation"><br>
-	        <input type="text" placeholder="How do we reach them?" id="fcontact" name="fcontact"><br>
-	        <input type="submit" value="Send Request" id="fsend">
-	    </form>
-
-	    <div id="front-report-right">
+        
+        <div class="row">
 
 	    <h2>Help transfer data from Twitter</h2>
 	    <h3>Lots of people take to social media to share their status and situation, 
@@ -136,6 +120,11 @@
 	    <h3>See whether a rescue team has been deployed to your area</h3>
 
 	    </div>
+        
+        
+		
+
+	    
 
 	</div>
 
@@ -170,8 +159,36 @@
 
 
 
-	<div id="listofcauses"></div>
+	<div id="listofcauses">
+        <div class="row">
+            <div class="large-12 columns">
+                <form method="get" action="/"> 
+                    <h2>Know someone who needs rescuing?</h2>
+                    <h3>Enter details here and we'll relay to rescue teams. Please be as specific as you can, include:
+                    <ol>
+                        <li>number of people in need of rescue </li>
+                        <li>level of flood in area (knee, waist, shoulder, etc) </li>
+                        <li>any info that might help rescuers </li>
+                    </ol>
+                    </h3>
+                    <div class="row">
+                        <div class="large-6 columns">
+                            <input type="text" placeholder="Who needs rescuing?" id="fnames" name="fnames"><br>
+                            <input type="text" placeholder="Where are they at?" id="flocation" name="flocation"><br>
+                        </div>
+                        <div class="large-6 columns">
+                            <input type="text" placeholder="What's happening?" id="fsituation" name="fsituation"><br>
+                            <input type="text" placeholder="How do we reach them?" id="fcontact" name="fcontact"><br>
+                        </div>
+                        <input type="submit" value="Send Request" id="fsend">
+                    </div>                                            
+               </form>
+            </div>
 
+        </div>
+    </div>
+      
+    
 
     <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
 	<script src="/js/reliefmaps.js"></script>

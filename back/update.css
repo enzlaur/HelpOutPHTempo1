@@ -17,6 +17,7 @@ h1
     font-size: 27px;
     height: 60px;
     line-height: 27px;
+    z-index: 2;
     transition: background 0.5s, color 4s;
 }
 
@@ -120,7 +121,6 @@ h1
 }
 
 #up_topbar {
-    padding-top: 30px;
     position: fixed;
 }
 
