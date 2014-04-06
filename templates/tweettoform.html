@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>HelpOutPH - Tweet Thing</title>
+    <link rel="stylesheet" href="/stylesheets/style.css">
+    <link rel="stylesheet" href="/stylesheets/tweettoform.css">
+  </head>
+
+  <body>
+
+ 	<header id="header">
+  		<div id = "title">
+			<h1><a href="/">HelpOutPH</a></h1>
+  		</div>
+
+		<nav id="nav">
+			<h3><ul>
+		        <li><a href="/report">Need Rescue?</a></li>
+		        <li><a href="/deployedtowhere">Deployed Rescuers</a></li>
+		        <li><a href="/giverelief">Give Relief</a></li>
+		       	<li><a href="/listofcauses">Causes to Support</a></li>
+	    	</ul></h3>
+	  	</nav>
+	</header>
+
+	<div id="tweet-container">
+
+		{{ tweet.user }}
+		{{ tweet.text }}
+
+		<form id="" method="get" action="/">
+			<h3>Enter details here and we'll relay to rescue teams. Please be as specific as you can, include:
+	        <ol>
+	        	<li>number of people in need of rescue </li>
+				<li>level of flood in area (knee, waist, shoulder, etc) </li>
+				<li>any info that might help rescuers </li>
+			</ol>
+	        </h3>
+			<input type="text" placeholder="Who needs rescuing?" id="fnames" name="fnames"><br>
+			<input type="text" placeholder="Where are they at?" id="flocation" name="flocation"><br>
+	        <input type="text" placeholder="What's happening?" id="fsituation" name="fsituation"><br>
+	        <input type="text" placeholder="How do we reach them?" id="fcontact" name="fcontact"><br>
+	        <input type="submit" value="Send Request" id="fsend">
+	    </form>
+
+	</div>
+
+
+	<script src="/js/jquery-1.11.0.js"></script>
+	<script type="text/javascript">
+
+
+
+	  </script>
+
+  </body>
+
+</html>

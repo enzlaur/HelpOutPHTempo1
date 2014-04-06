@@ -1,0 +1,252 @@
+.bods
+{
+    background: #f5f5f5;    
+}
+
+h1
+{
+    font-family: Rockwell;
+    color: white;
+}
+
+h2
+{
+    font-family: Rockwell;
+    color: white;
+}
+
+h3
+{
+    font-size: 12px;
+    font-family: Rockwell;
+    color: white;
+}
+
+li
+{
+    font-family: Segoe UI;
+    color: white;
+}
+
+#up_Title {
+    background: rgb(16, 109, 129);
+    border: 0px;
+    border-radius: 10px;
+    color: #ff7b7b;
+    font-family: Rockwell;
+    font-size: 27px;
+    height: 60px;
+    line-height: 27px;
+    transition: background 0.5s, color 4s;
+}
+
+#up_Title:hover
+{
+    background: #ff7b7b;
+    color: rgb(1, 79, 96);
+}
+
+.up_dropdown_content {
+    background: #ff7b7b;
+    border-bottom: 1px solid #c66161;    
+    color: #34566f;
+    font-family: Rockwell;
+    font-size: 20px;    
+    line-height: -10px;
+    transition: background 0.5s, color 0.5s;
+}
+
+.up_dropdown_content:hover
+{
+    background: rgb(1, 79, 96);
+    color: #ff7b7b;
+}
+
+
+
+.hiddenspace-20 {
+    margin-top: 20px;
+}
+
+.hiddenspace-30 {
+    padding-top: 30px;
+}
+
+#up_login_container {
+    background: rgb(1, 79, 96);
+    border: 0px;
+    border-radius: 10px;
+    padding-top: 11px;
+    height: 60px;
+    width: 500px;
+    
+}
+
+#up_login_email {
+    background: rgb(1, 56, 69);
+    color: white;
+    border: 0px;
+    border-radius: 5px;
+    transition: background 0.5s;
+}
+
+#up_login_email:hover {
+    background: white;
+    color: black;    
+}
+#up_login_email:focus {
+    background: white;
+    color: black;    
+}
+
+#up_login_password {
+    background: rgb(1, 56, 69);
+    color: white;
+    border: 0px;
+    border-radius: 5px;    
+    transition: background 0.5s;
+}
+
+#up_login_password:hover {
+    background: white;
+    color: black;    
+}
+#up_login_password:focus {
+    background: white;
+    color: black;    
+}
+
+#up_login_submit {
+    font-size:40px;
+    color: white;
+}
+
+.hiddenspace-70 {
+    padding-top: 70px;
+}
+
+#up-urgent-send {
+    background: rgb(1, 56, 69);
+    border: 0px;
+    border-radius: 10px;
+    color: white;
+    height: 50px;
+    width: 100%;        
+}
+
+#up_above_fold {
+    margin-top: 8%;
+}
+
+#up_topbar {
+    padding-top: 30px;
+}
+
+#autopadder {
+    padding-top: 9%;
+}
+
+#tempbg {
+    background: rgba(239, 235, 232, 0.74);
+    height: 700px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+}
+
+#up_login_container {
+    background: rgb(16, 109, 129);
+}
+
+#fnames {
+    background: rgb(1, 56, 69);
+    border-radius: 5px;
+    color: white;
+    margin: 0px 0px;
+    transition: background 0.5s, border-radius 0.5s;
+}
+
+#fnames:focus {
+    background: rgb(255, 255, 255);
+    color: black;
+    border-radius: 50px;    
+}
+
+#fnames:hover {
+    background: rgb(255, 255, 255);
+    color: black;
+}
+
+#flocation {
+    background: rgb(1, 56, 69);
+    border-radius: 5px;
+    margin: 0px;    
+    transition: background 0.5s, border-radius 0.5s;
+}
+
+#flocation:focus {
+    background: rgb(255, 255, 255);
+    color: black;
+    border-radius: 50px;    
+}
+
+#flocation:hover {
+    background: rgb(255, 255, 255);
+    color: black;
+}
+
+#fsituation {
+    background: rgb(1, 56, 69);
+    border-radius: 5px;
+    margin: 0px;
+    transition: background 0.5s, border-radius 0.5s;
+    
+}
+
+#fsituation:focus {
+    background: rgb(255, 255, 255);
+    color: black;
+    border-radius: 50px;    
+}
+
+#fsituation:hover {
+    background: rgb(255, 255, 255);
+    color: black;
+}
+
+#fcontact {
+    background: rgb(1, 56, 69);
+    margin: 0px;
+    border-radius: 5px;
+    transition: background 0.5s, border-radius 0.5s;
+}
+
+#fcontact:focus {
+    background: rgb(255, 255, 255);
+    color: black;
+    border-radius: 50px;    
+}
+
+#fcontact:hover {
+    background: rgb(255, 255, 255);
+    color: black;
+}
+
+#front-report-top {    
+    background: rgb(1, 79, 96);
+    border-radius: 5px;
+    padding: 20px 20px;
+    
+}
+
+#fsend {
+    width: 100%;
+    background: rgb(255, 123, 123);
+    border-radius: 5px;
+    transition: background 0.5s;
+}
+
+#fsend:hover {
+    background: rgb(255, 156, 156);
+}

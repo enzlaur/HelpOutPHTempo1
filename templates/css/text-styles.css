@@ -1,0 +1,72 @@
+.title
+{
+	font-family: Rockwell;
+	margin-top: 50px;
+	transition: font-size 1s;
+}
+.title-sub
+{
+	font-family: Segoe UI;
+	margin-top: 10px;
+}
+.title-sub.light
+{
+	font-family: Segoe UI Light;
+}
+.font-20
+{
+	font-size: 20px;
+}
+.font-25
+{
+	font-size: 25px;
+}
+.font-30
+{
+	font-size: 30px;
+}
+.font-35
+{
+	font-size: 35px;
+}
+.font-50
+{
+	font-size: 50px;
+}
+.font-70
+{
+	font-size: 70px;
+}
+.font-white
+{
+	color: white;
+}
+.rockwell
+{
+	font-family: Rockwell;
+}
+@media (max-width: 1005px)
+{
+	.title
+	{
+		text-align: center;
+	}
+}
+@media (max-width: 400px)
+{
+	.title
+	{
+		font-size: 50px;
+	}
+}
+#spoil {
+    text-shadow: 0 0 8px #fff; color: rgba(255,255,255,0);
+    transition: text-shadow 0.3s;
+}
+#spoil:hover {
+    text-shadow: 0 0 0px #fff; color: rgba(255,255,255,0);
+}
+.font-segoe-light {
+    font-family: Segoe UI Light;
+    
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>HelpOutPH - Report</title>
+    <link rel="stylesheet" href="/stylesheets/style.css">
+    <link rel="stylesheet" href="/stylesheets/reportssubmitted.css">
+
+  </head>
+
+  <body>
+
+ 	<header id="header">
+  		<div id = "title">
+			<h1><a href="/">HelpOutPH</a></h1>
+  		</div>
+
+		<nav id="nav">
+			<h3><ul>
+		        <li><a href="/report">Need Rescue?</a></li>
+		        <li><a href="/deployedtowhere">Deployed Rescuers</a></li>
+		        <li><a href="/giverelief">Give Relief</a></li>
+		       	<li><a href="/listofcauses">Causes to Support</a></li>
+	    	</ul></h3>
+	  	</nav>
+	</header>
+
+	<div id="rescue-reports">
+		<h2>People who need rescuing:</h2>
+
+		<table id = "rescue-reports-table">
+			<td><h3>Names:</h3></td>
+			<td><h3>Location:</h3></td>
+			<td><h3>Situation:</h3></td>
+			<td><h3>Contact Info:</h3></td>
+
+				{% for rr in rrs %}
+
+				<tr>
+					<td><h3>{{ rr.names }}</h3></td>
+					<td><h3>{{ rr.location }}</h3></td>
+					<td><h3>{{ rr.situation }}</h3></td>
+					<td><h3>{{ rr.contactinfo }}</h3></td>
+				</tr>
+
+				{% endfor %}
+
+			</h3>
+
+		</table>
+
+	</div>
+
+	<script src="/js/jquery-1.11.0.js"></script>
+	<script type="text/javascript">
+
+
+
+	  </script>
+
+  </body>
+
+</html>

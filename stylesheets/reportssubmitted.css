@@ -1,0 +1,17 @@
+#rescue-reports {
+	padding-top: 100px;
+	padding-left: 50px;
+	height: 80%;
+	width: 1180px;
+}
+
+#rescue-reports-table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+
+tr:nth-child(even) {
+    background-color: #F2525B;
+}
+
